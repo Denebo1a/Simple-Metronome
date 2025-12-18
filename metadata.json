@@ -1,0 +1,5 @@
+{
+  "name": "PulseForge Metronome",
+  "description": "A high-precision, aesthetic metronome with a MIDI-style visual rhythm editor and integrated session timer.",
+  "requestFramePermissions": []
+}
