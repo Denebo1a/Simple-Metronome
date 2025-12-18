@@ -5,6 +5,7 @@ import RhythmGrid from './components/RhythmGrid';
 import Controls from './components/Controls';
 import Timer from './components/Timer';
 import { Settings, Info } from 'lucide-react';
+import { InstallPrompt } from './components/InstallPrompt';
 
 const INITIAL_STEPS: RhythmStep[] = Array(16).fill(null).map((_, i) => ({
   id: i,
@@ -159,6 +160,8 @@ const App: React.FC = () => {
       <footer className="p-4 sm:p-6 text-center text-zinc-800 text-[10px] sm:text-xs font-mono">
         PRECISION AUDIO ENGINE v1.0.0
       </footer>
+      
+      <InstallPrompt />
     </div>
   );
 };
